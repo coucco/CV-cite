@@ -14,8 +14,8 @@
   --accent2:  #3d6fd4;
   --accent-glow: rgba(91,141,239,0.15);
 
-  --mono: 'JetBrains Mono', monospace;
-  --sans: 'Inter', system-ui, sans-serif;
+  --mono: 'Space Mono', monospace;
+  --sans: 'Plus Jakarta Sans', system-ui, sans-serif;
 
   --radius: 10px;
   --radius-sm: 6px;

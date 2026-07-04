@@ -29,7 +29,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--sans);
-  font-size: 15px;
+  font-size: clamp(15px, 1.05vw, 17px);
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
@@ -66,7 +66,7 @@ img { display: block; max-width: 100%; }
   gap: 28px;
 }
 .nav-links a {
-  font-size: 13px;
+  font-size: clamp(13px, 0.9vw, 15px);
   color: var(--text2);
   letter-spacing: 0.3px;
 }
@@ -127,7 +127,7 @@ img { display: block; max-width: 100%; }
 }
 .hero-tagline {
   font-family: var(--mono);
-  font-size: 16px;
+  font-size: clamp(14px, 1.2vw, 18px);
   color: var(--text2);
   margin-bottom: 48px;
   opacity: 0;
@@ -236,7 +236,7 @@ img { display: block; max-width: 100%; }
   color: var(--text2);
 }
 .job-role {
-  font-size: 16px;
+  font-size: clamp(15px, 1.2vw, 18px);
   font-weight: 600;
   color: var(--text);
   margin-bottom: 4px;
@@ -254,7 +254,7 @@ img { display: block; max-width: 100%; }
   gap: 7px;
 }
 .job-items li {
-  font-size: 14px;
+  font-size: clamp(13px, 1vw, 15px);
   color: var(--text2);
   padding-left: 16px;
   position: relative;
@@ -306,7 +306,7 @@ img { display: block; max-width: 100%; }
   margin-bottom: 4px;
 }
 .project-name {
-  font-size: 17px;
+  font-size: clamp(15px, 1.2vw, 18px);
   font-weight: 600;
   color: var(--text);
 }
@@ -318,7 +318,7 @@ img { display: block; max-width: 100%; }
 }
 .project-link-icon:hover { color: var(--text) !important; }
 .project-desc {
-  font-size: 13px;
+  font-size: clamp(13px, 0.95vw, 15px);
   color: var(--text2);
   line-height: 1.6;
   margin-bottom: 16px;
@@ -354,7 +354,7 @@ img { display: block; max-width: 100%; }
   margin-bottom: 16px;
 }
 .project-bullets li {
-  font-size: 13px;
+  font-size: clamp(13px, 0.95vw, 15px);
   color: var(--text2);
   padding-left: 14px;
   position: relative;
